@@ -130,3 +130,7 @@ main
 {
     float: right !important;
 }
+
+.contact-form{
+    align-items: center;
+}
