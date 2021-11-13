@@ -92,25 +92,21 @@
                 <div class="col-md-10 col-sm-12">
                     <h4>Contatcs</h4>
                     <hr>
-                    <div class="col-md-10 right-orn contact-field">
-                        <h5>Send your message</h5>
-                         <!-- or <a href = "mailto: abc@example.com">Direct-Mail</a> -->
-                        <div class="row">
-                            <form method="post" action="mailto:xislm@czu.cz" enctype="text/plain">
-                                <div class="">
-                                    <div class="input-field">
-                                        <input type="text" placeholder="Name" name="Name" required="">
-                                    </div>
-                                    <div class="input-field">
-                                        <input type="email">
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+                    <div class='contact-form'>
+                        <form action="mailto:faisalpau@gmail.com" method="get" class="contact-form">
+                            <div class="name">
+                                <input type="text" id="name" class="name" placeholder="enter name" required>
+                            </div>
+                            <div class="email">
+                                <input type="email" id="email" class="email" placeholder="enter email" required>
+                            </div>
+                            <div class="text-area">
+                                <textarea name="text-area" id="text-area" cols="25" rows="10"
+                                    placeholder=" write me"></textarea>
+                            </div>
+                            <button>submit</button>
+                        </form>
                     </div>
-                </div>
-
-            </div>
 
         </main>
         <div class="footer">
